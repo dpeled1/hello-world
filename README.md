@@ -1,2 +1,2 @@
 # hello-world
-Aspiring developer. Message me to pair up!
+Aspiring software developer. Message me to pair up and learn together!
