@@ -1,0 +1,33 @@
+// Prints a square of bricks, sized as specified by user
+
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    // Prompt user for a positive number
+    int n;
+
+    do
+    {
+        n = get_int("Positive number no greater than 23: ");
+    }
+    while (n <= 0 || n >= 24);
+
+    // Print out this many rows
+    for (int i = 0; i < n; i++)
+    {
+
+        // Print out this many columns
+
+        for (int j = i; j < n; j++)
+        {
+
+
+             printf("#");
+        }
+
+    printf("\n");
+    }
+}
