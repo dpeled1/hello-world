@@ -18,12 +18,12 @@ int main(void)
     // Print out this many rows
     for (int i = 0; i < n; i++)
     {
-
+    
+    COMMIT MERGE?
         // Print out this many columns
 
         for (int j = i; j < n; j++)
         {
-NONPULLMARIO
 
              printf("#");
         }
