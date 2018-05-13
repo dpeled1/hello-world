@@ -1,0 +1,27 @@
+var amt = Number(input())
+var nums = [];
+    
+var tums =[];
+    
+
+for ( i = 0; i < amt; i++ ) {
+    //nums.push(input().split(" "));
+    
+nums.push(input().split(" "));  
+
+    if (parseInt(nums[i][0])<parseInt(nums[i][1]))
+    {
+    //var test=nums[i][0]+ '\n';
+    tums.push(nums[i][0]+ " ");
+    
+}
+else
+{
+    //tums[i]=nums[0][i+1];
+    tums.push(nums[i][1]+ " ");
+    
+}
+}
+
+
+output(tums.join(" "));
