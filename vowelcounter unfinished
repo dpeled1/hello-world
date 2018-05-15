@@ -1,0 +1,20 @@
+var amt = input();
+var nums=[];
+var vowelcounter = 0;
+
+parseInt(amt);
+
+     for (var i = 0; i < amt; i++) {
+     nums.push(input().split(" "));  
+     
+    var z =nums[i].length;
+   for (var t=0;t<z;t++)
+   {
+         //var res = nums[i][t].match(/hp/gi);
+           // output(res);
+            if (nums[i][t].match(/[aeiouy]/) != null) {
+     vowelcounter= vowelcounter + 1;
+            }
+}
+} 
+  output(vowelcounter);
