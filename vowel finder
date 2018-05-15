@@ -1,0 +1,31 @@
+//Code Abbey vowel counter
+var amt = input();
+var nums=[];
+var vowelcounter=[];
+
+amt=parseInt(amt);
+for (var i = 0; i < amt; i++) {
+     nums.push(input().split(''));  
+         var lengthy = nums[i];
+         var lengther = lengthy.length;
+       //  output(lengther);
+
+        var counter=0;
+//var arr1 = [...x]
+//output(nums[0]+"X");
+//output(nums[1]+"X");
+//output(nums[0][2]);
+for (var z=0;z<lengther;z++){
+  if (nums[i][z].match(/[aeiouy]/) != null){
+          // output(arr1[1]);
+          counter = counter + 1 ;
+          
+           //vowelcounter[i].push(counter); //this may need to go out of this loop or if
+          // output(vowelcounter[i]);
+          }
+         
+
+}
+ output(counter+ " ");
+}
+          
