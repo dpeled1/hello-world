@@ -1,0 +1,37 @@
+var len = Number(input());
+var nums =[];
+for (var i = 0; i < len; i++) 
+{
+nums.push(input().split(" "));  
+
+var longest = nums[i][0];
+if (parseInt(nums[i][1]) > longest )
+{
+    longest = nums[i][1];
+    
+}
+if(parseInt(nums[i][2]) > longest )
+{
+    longest = nums[i][2];
+   
+}
+
+
+function isValidTriangle(longest) {
+    parseInt(longest);
+ if((longest < (parseInt(nums[i][0]) + parseInt(nums[i][1])  + parseInt(nums[i][2])) - longest))
+{
+    return 1;
+    
+}
+else
+{
+    return 0;
+}
+   }
+   
+   output(isValidTriangle(longest)+" ");
+
+}
+
+
